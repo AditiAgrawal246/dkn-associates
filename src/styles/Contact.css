@@ -1,0 +1,113 @@
+ .contact-page {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.contact-page h1 {
+  text-align: center;
+  color: #003459;
+  margin-bottom: 20px;
+}
+
+.contact-page p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.office-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  overflow-x: auto; 
+  flex-wrap: nowrap;
+  margin-bottom: 50px;
+}
+
+.office-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.office-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.office-card h3 {
+  font-size: 1.5rem;
+  color: #007EA7;
+  margin-bottom: 10px;
+}
+
+.office-card p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.office-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.office-card ul li {
+  font-size: 1.1rem;
+}
+
+.office-card ul li a {
+  text-decoration: none;
+  color: #003459;
+  font-weight: bold;
+}
+
+.office-card ul li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .office-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .office-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .office-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .office-card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-page h1 {
+    font-size: 1.8rem;
+  }
+
+  .contact-page p {
+    font-size: 1rem;
+  }
+
+  .office-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .office-card p {
+    font-size: 0.85rem;
+  }
+}

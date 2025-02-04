@@ -1,0 +1,70 @@
+.service-detail-page {
+    padding: 50px 20px;
+    text-align: right;
+    font-family: 'Arial', sans-serif;
+}
+
+.service-detail-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.service-detail-page p {
+    font-size: 1.2rem;
+    max-width: 1350px;
+    margin: 0 auto 20px;
+    text-align: justify;
+}
+
+.service-detail-page h3 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.service-detail-page ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+.service-detail-page ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.service-detail-page ul li::before {
+    content: '➤';
+    color: #003459;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.back-button {
+    text-align: right;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #003459;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #375d79;
+}
+
+.back-button:active {
+    background-color: #003459;
+}
+
+.back-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #003459; 
+}
