@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/ServiceDetail.css';
 import Footer from '../components/Footer';
 
@@ -6,7 +7,7 @@ const CooporateAlliedLawsAdvisory = () => {
   return (
     <div>
     <div className="service-detail-page">
-      <a href="/services" className="back-button">Back to Services</a>
+      <Link to="/services" className="back-button">Back to Services</Link>
       <h1>Corporate & Allied Laws Advisory</h1>
       <p>Providing expert guidance on company incorporation, regulatory compliance, due diligence, and consulting on corporate laws, ensuring seamless adherence to legal and statutory requirements.</p>
       <h3>Services We Offer:</h3>

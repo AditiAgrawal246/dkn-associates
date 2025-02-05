@@ -1,12 +1,13 @@
 import React from 'react';
 import '../styles/ServiceDetail.css';
+import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 
 const GovernanceRiskCompliance = () => {
   return (
     <div>
     <div className="service-detail-page">
-      <a href="/services" className="back-button">Back to Services</a>
+      <Link to="/services" className="back-button">Back to Services</Link>
       <h1>Governance, Risk & Compliance</h1>
       <p>Providing comprehensive solutions in internal audits, risk assessment, financial due diligence, and compliance management, ensuring businesses meet regulatory standards and safeguard their operations.</p>
       <h3>Core Services:</h3>

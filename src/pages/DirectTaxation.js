@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/ServiceDetail.css';
 import Footer from '../components/Footer';
 
@@ -6,7 +7,7 @@ const DirectTaxation = () => {
   return (
     <div>
     <div className="service-detail-page">
-      <a href="/services" className="back-button">Back to Services</a>
+      <Link to="/services" className="back-button">Back to Services</Link>
       <h1>Direct Taxation</h1>
       <p>Providing end-to-end solutions for tax compliance, planning, and advisory services, ensuring accurate filings, efficient representation, and optimized tax strategies for individuals and businesses.</p>
       <h3>Compliance & Litigation</h3>

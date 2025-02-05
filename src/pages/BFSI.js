@@ -1,5 +1,5 @@
 import React from 'react';
-// import '../styles/BFSI.css'
+import { Link } from 'react-router-dom';
 import '../styles/ServiceDetail.css';
 import Footer from '../components/Footer';
 
@@ -7,7 +7,7 @@ const BFSI = () => {
   return (
     <div>
     <div className="service-detail-page">
-      <a href="/services" className="back-button">Back to Services</a>
+      <Link to="/services" className="back-button">Back to Services</Link>
       <h1>Banking, Financial Services, and Insurance (BFSI)</h1>
       <p>Delivering expert audit services, including statutory, internal, and compliance audits for banks and financial institutions, ensuring operational efficiency and regulatory adherence.</p>
       <h3>Core Services:</h3>
